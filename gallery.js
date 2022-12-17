@@ -28,7 +28,7 @@
 
 let url = 'https://docs.google.com/spreadsheets/d/1W_g9ktBT6d6LWTboa646yAfLAbDi2ooB_ac_XOqAVQc/gviz/tq?';
 const lkjs = document.querySelector('.lkjs');
-const query = encodeURIComponent('Select B,C,D,E,F');
+const query = encodeURIComponent('SELECT B,C,D,E,F ORDER BY RANDOM()');
 console.log(query);
 url = url + '&tq=' + query;
 
